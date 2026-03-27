@@ -26,6 +26,7 @@ export default async function handler(req, res) {
       folderId,
       count: files.length,
       files,
+      note: "Aquest endpoint només llegeix el primer nivell de la carpeta",
     });
   } catch (error) {
     console.error("sync-drive error:", error);
