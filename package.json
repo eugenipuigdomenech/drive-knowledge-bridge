@@ -1,0 +1,19 @@
+{
+  "name": "drive-knowledge-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "vercel:dev": "vercel dev --yes"
+  },
+  "dependencies": {
+    "googleapis": "^144.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "vercel": "^50.37.1"
+  }
+}
