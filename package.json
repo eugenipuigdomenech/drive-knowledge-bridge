@@ -10,8 +10,9 @@
     "vercel:dev": "vercel dev --yes"
   },
   "dependencies": {
-    "googleapis": "^144.0.0",
-    "dotenv": "^16.4.5"
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^16.4.5",
+    "googleapis": "^144.0.0"
   },
   "devDependencies": {
     "vercel": "^50.37.1"
